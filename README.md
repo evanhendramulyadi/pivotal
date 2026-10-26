@@ -4,19 +4,19 @@
 
 <h1 align="left">Pivotal</h1>
 
-Pivotal is a portable, self-contained AI coding instruction system designed to help AI coding agents understand user intent, work efficiently, avoid unnecessary complexity, reuse existing solutions, and verify results before reporting completion.
+Pivotal is a portable, self-contained AI coding instruction system distributed through a single `AGENTS.md` file. It is designed to help compatible AI coding agents understand user intent, work efficiently, avoid unnecessary complexity, reuse existing solutions, and verify results before reporting completion.
 
-Distributed as a single `AGENTS.md` file, Pivotal provides clear operational guardrails that prevent common agent friction patterns—such as aimless repository exploration, unrequested refactoring, speculative abstractions, and premature completion claims—without requiring any software installations, external dependencies, or runtime configuration.
+By providing structured operational guardrails, Pivotal is designed to improve an agent's understanding of project context, reduce redundant exploration and overengineering, encourage the reuse of established code, and promote proportional verification before declaring tasks complete—all without requiring software installations, package dependencies, or runtime configuration.
 
 ## ✨ Key Features
 
-- **Intent & Context First**: Determines actual user objectives, evaluates available context, and distinguishes explicit requirements from assumptions before taking action.
-- **Solution-Priority Ladder**: Prioritizes no change, existing code, standard libraries, platform features, and installed dependencies before introducing new custom code.
-- **Smallest Complete Solution**: Chooses the simplest maintainable approach that fully satisfies requirements without introducing unrequested abstractions or fragile shortcuts.
-- **Waste & Token Reduction**: Minimizes aimless exploration, redundant file reading, circular reasoning loops, duplicate tool calls, and unnecessary token usage.
-- **Blast Radius Control**: Preserves working architecture, untouched files, and formatting while avoiding unprompted refactoring and new dependencies.
-- **Non-Negotiable Quality & Safety**: Protects security boundaries, input validation, data integrity, accessibility standards, and compatibility guarantees.
-- **Proportional Verification**: Matches verification effort to risk, requiring evidence-backed test results and diff reviews before declaring completion.
+- **Intent & Context First**: Guides agents to determine actual user objectives, evaluate available context, and distinguish explicit requirements from assumptions before acting.
+- **Solution-Priority Ladder**: Directs agents to evaluate solutions in priority order (no change, existing code, standard library, native platform features, installed dependencies, and minimal custom code) before introducing new code.
+- **Smallest Complete Solution**: Encourages the simplest maintainable approach that fully satisfies requirements without introducing unrequested abstractions or fragile implementations.
+- **Targeted Exploration & Efficiency**: Designed to curb unnecessary token usage, aimless repository scans, redundant tool calls, and repeated actions without root-cause assessment.
+- **Blast Radius Control**: Preserves working architecture, untouched files, and formatting conventions while avoiding unsolicited refactoring or extraneous dependencies.
+- **Quality & Safety Considerations**: Reminds agents to uphold security boundaries, input validation, data integrity, accessibility standards, and essential regression tests.
+- **Proportional Verification**: Promotes matching verification effort to task risk, requiring concrete execution evidence and diff reviews before declaring completion.
 - **Portable & Zero-Dependency**: Delivers full operational guidance through a single standalone `AGENTS.md` file with no tools to install or configure.
 
 ## 🚀 How to Use Pivotal
@@ -45,7 +45,7 @@ your-project/
 
 ### Step 3 — Open the Project in an AI Coding Agent
 
-Open your project in a compatible AI coding agent or IDE, such as Claude Code, Cursor, Windsurf, or another tool that supports `AGENTS.md`.
+Open your project in a compatible AI coding agent or IDE that supports `AGENTS.md`.
 
 > [!NOTE]
 > AI coding tools handle instruction files differently. Behavior depends on the specific tool, its version, and its instruction-loading mechanism. If your tool expects an alternative instruction file convention (such as `.cursorrules` or `CLAUDE.md`), you can copy or reference the contents of `AGENTS.md` within that file.
@@ -62,7 +62,7 @@ Pivotal provides project-level instructions for the agent to follow; it guides t
 
 Pivotal organizes agent behavior around an adaptive, six-stage operational rhythm:
 
-$$\text{Understand} \longrightarrow \text{Inspect} \longrightarrow \text{Prioritize} \longrightarrow \text{Execute} \longrightarrow \text{Verify} \longrightarrow \text{Report}$$
+`Understand → Inspect → Prioritize → Execute → Verify → Report`
 
 1. **Understand**: Clarify user intent, requirements, constraints, and success criteria before taking action.
 2. **Inspect**: Examine only the files, callers, and dependencies directly involved in the task.
@@ -73,10 +73,10 @@ $$\text{Understand} \longrightarrow \text{Inspect} \longrightarrow \text{Priorit
 
 ## 🧩 Compatibility and Requirements
 
-- **Distribution Format**: Pivotal is distributed entirely as a Markdown instruction file (`AGENTS.md`).
-- **Zero Runtime Dependencies**: No installation command, runtime environment, build process, API keys, or package managers are required for the instruction file itself.
-- **Agent Support**: Intended for AI coding agents, IDE extensions, and tools that support or can be configured to read `AGENTS.md` (e.g., Claude Code, Cursor, Windsurf, GitHub Copilot).
-- **Tool-Dependent Results**: Results depend on the AI agent, its capabilities, available context, and compliance with the instructions. Universal compatibility across all tools is not claimed.
+- **Distribution Format**: Pivotal is distributed entirely as a standard Markdown instruction file (`AGENTS.md`).
+- **Zero Runtime Dependencies**: Pivotal requires no installation commands, runtime environments, build processes, package managers, or external dependencies.
+- **Agent Integration**: The instructions are intended for AI coding agents and development environments that support or can be configured to read `AGENTS.md`. Different tools may load and handle instruction files differently.
+- **Variable Outcomes**: Actual results depend on the specific AI agent, its model capabilities, available context, and how closely it follows workspace instructions. Pivotal does not claim universal compatibility or guaranteed compliance across all tools.
 
 ## 📁 Repository Structure
 
@@ -86,16 +86,18 @@ Pivotal/
 ├── README.md
 ├── LICENSE
 └── assets/
-    └── logo.png
+    └── logo-pivotal.png
 ```
 
 - **`AGENTS.md`**: The actual product. This is the only file you need to copy into a compatible coding project.
-- **`README.md`**, **`LICENSE`**, and **`assets/`**: Repository documentation and assets; they are not required at runtime in your project.
+- **`README.md`**, **`LICENSE`**, and **`assets/`**: Repository documentation, licensing information, and assets; they are not required at runtime in your project.
 
 ## 📄 Copyright & Ownership
 
 © 2026–Present Evan Hendra Mulyadi.
 
 Pivotal is an open-source project created by **Evan Hendra Mulyadi**. It is made available for public use, study, modification, and redistribution under its applicable open-source license.
+
+The project encourages the community to use, adapt, improve, and build upon Pivotal in accordance with the terms of its license.
 
 The project encourages the community to use, adapt, improve, and build upon Pivotal in accordance with the terms of its license.
