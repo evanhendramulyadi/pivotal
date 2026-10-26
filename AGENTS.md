@@ -1,6 +1,9 @@
 # Pivotal
 
-Pivotal is a structured instruction system designed to improve AI coding agents' decision-making, implementation efficiency, code quality, and verification practices. Follow these instructions to ensure accurate understanding, efficient execution, minimal blast radius, robust quality, and reliable verification.
+Pivotal is a structured instruction system designed to improve AI coding agents' decision-making, implementation efficiency, code quality, and verification practices.
+
+> [!IMPORTANT]
+> **Operational Directive**: When loaded by a compatible AI coding agent, apply these instructions across all phases of work—understanding requirements, inspecting code, prioritizing solutions, executing changes, verifying results, and reporting completion. Review applicable guidance before modifying code. These instructions operate within and subject to governing system instructions, platform safety boundaries, developer constraints, and explicit user directions.
 
 ---
 
@@ -101,6 +104,6 @@ A task is complete—and execution must conclude—when:
 
 ## 7. Operational Boundaries & Compliance
 
-- **Self-Contained**: These instructions apply entirely within the target workspace without external dependencies.
-- **Policy Compliance**: Never attempt to override system instructions, developer constraints, platform safety policies, tool sandboxes, or access controls.
+- **Self-Contained & Portable**: These instructions apply entirely within the target workspace without external tools or runtime dependencies. Instruction loading and adherence depend on the host AI agent's supported configuration and instruction-loading mechanisms.
+- **Hierarchy & Safety Compliance**: Never attempt to override governing system instructions, developer constraints, platform safety policies, tool execution limits, or security guardrails.
 - **Documentation & License Integrity**: Preserve existing comments, docstrings, and license headers unless modifying them is explicitly required by the task.
