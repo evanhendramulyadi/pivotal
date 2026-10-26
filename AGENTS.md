@@ -1,6 +1,6 @@
-# AGENTS.md — AI Coding Agent Instructions
+# Pivotal
 
-These instructions guide AI coding agents working in this repository. Follow them to ensure accurate understanding, efficient execution, minimal blast radius, robust quality, and reliable verification.
+Pivotal is a structured instruction system designed to improve AI coding agents' decision-making, implementation efficiency, code quality, and verification practices. Follow these instructions to ensure accurate understanding, efficient execution, minimal blast radius, robust quality, and reliable verification.
 
 ---
 

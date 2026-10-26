@@ -1,35 +1,21 @@
-PROPRIETARY LICENSE
+MIT License
 
-Copyright (c) 2026 [Copyright Holder / Author Name]. All rights reserved.
+Copyright (c) 2026 Evan Hendra Mulyadi
 
-1. Ownership of Materials
-All original materials contained in this repository, including but not limited to instruction specifications (AGENTS.md), documentation, branding, visual assets, graphics, and logo files (collectively, the "Materials"), are the proprietary intellectual property of [Copyright Holder / Author Name] ("Licensor").
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-2. Permitted Access
-You are granted a limited, non-exclusive, non-transferable, revocable license to access, view, and read the Materials solely for personal, non-commercial evaluation and informational purposes through the official repository or authorized distribution channels.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-3. Restrictions
-Except as expressly authorized in writing by Licensor or permitted by applicable law that cannot be derogated from by contract, you may not:
-(a) Reproduce, redistribute, republish, sell, rent, lease, sublicense, or publicly display the Materials, in whole or in part;
-(b) Modify, adapt, translate, create derivative works from, or create competing distributions of the Materials;
-(c) Remove, obscure, or alter any copyright notices, trademarks, or proprietary legends affixed to or contained within the Materials;
-(d) Use the Materials for commercial exploitation, hosted service integration, or monetization without obtaining an explicit written commercial license from Licensor.
-
-4. Scope and Generated Code
-This License governs the Materials themselves. Nothing in this License grants Licensor ownership rights in:
-(a) Third-party AI platforms, tools, or agents executing or interpreting the Materials;
-(b) Independent user codebases, projects, or applications into which instructions may be incorporated;
-(c) Code or digital artifacts generated independently by AI models during development workflows.
-
-5. Trademarks and Third-Party Rights
-All third-party product names, logos, trademarks, and registered trademarks mentioned in the Materials are property of their respective owners. Their mention is for identification and compatibility reference only and does not imply endorsement, affiliation, or sponsorship.
-
-6. Permission Requests
-Requests for commercial licensing, distribution permissions, or other authorizations outside the scope of this License must be directed to Licensor through the official project repository or designated contact channels.
-
-7. Disclaimer of Warranties
-THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, ACCURACY, AND NON-INFRINGEMENT. IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
-
-8. Limitation of Liability
-TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, REVENUE, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY ARISING IN ANY WAY OUT OF THE USE OF OR INABILITY TO USE THE MATERIALS.
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

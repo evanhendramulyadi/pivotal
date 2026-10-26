@@ -48,7 +48,7 @@ your-project/
 Open your project in a compatible AI coding agent or IDE that supports `AGENTS.md`.
 
 > [!NOTE]
-> AI coding tools handle instruction files differently. Behavior depends on the specific tool, its version, and its instruction-loading mechanism. If your tool expects an alternative instruction file convention (such as `.cursorrules` or `CLAUDE.md`), you can copy or reference the contents of `AGENTS.md` within that file.
+> AI coding tools handle instruction files differently. If your tool does not natively support `AGENTS.md`, you can adapt Pivotal's contents into the instruction file format supported by that tool (such as `.cursorrules` or `CLAUDE.md`). Consult your AI coding agent's official documentation to identify its supported instruction file name, location, and loading mechanism—simply renaming `AGENTS.md` does not guarantee that an agent will recognize or load it. When adapting instructions, preserve Pivotal's core principles, workflows, priorities, and behavioral requirements. If your project already contains an existing instruction file, carefully review and merge Pivotal's instructions rather than blindly overwriting established project rules. Tool behavior and instruction compliance will vary across different AI coding environments.
 
 ### Step 4 — Start Coding
 
@@ -97,7 +97,5 @@ Pivotal/
 © 2026–Present Evan Hendra Mulyadi.
 
 Pivotal is an open-source project created by **Evan Hendra Mulyadi**. It is made available for public use, study, modification, and redistribution under its applicable open-source license.
-
-The project encourages the community to use, adapt, improve, and build upon Pivotal in accordance with the terms of its license.
 
 The project encourages the community to use, adapt, improve, and build upon Pivotal in accordance with the terms of its license.
