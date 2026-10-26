@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Pivotal Logo" width="100">
+  <img src="assets/logo-pivotal.png" alt="Pivotal Logo" width="100">
 </p>
 
 <h1 align="left">Pivotal</h1>
@@ -92,14 +92,10 @@ Pivotal/
 - **`AGENTS.md`**: The actual product. This is the only file you need to copy into a compatible coding project.
 - **`README.md`**, **`LICENSE`**, and **`assets/`**: Repository documentation and assets; they are not required at runtime in your project.
 
-## 📄 License
+## 📄 Copyright & Ownership
 
-Pivotal is licensed under a custom proprietary license. See the [LICENSE](LICENSE) file for complete terms, conditions, and permissions.
+© 2026 Evan Hendra Mulyadi.
 
-## 🤝 Contributing
+Pivotal is an open-source project created by **Evan Hendra Mulyadi**. It is made available for public use, study, modification, and redistribution under its applicable open-source license.
 
-Contributions, feedback, bug reports, and suggestions for improving Pivotal are welcome. Feel free to open an issue or submit a pull request on [GitHub](https://github.com/evanhendramulyadi/pivotal).
-
-## 👤 Author
-
-Created and maintained by **Evan Hendra Mulyadi**.
+The project encourages the community to use, adapt, improve, and build upon Pivotal in accordance with the terms of its license.
