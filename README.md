@@ -94,7 +94,7 @@ Pivotal/
 
 ## 📄 Copyright & Ownership
 
-© 2026 Evan Hendra Mulyadi.
+© 2026–Present Evan Hendra Mulyadi.
 
 Pivotal is an open-source project created by **Evan Hendra Mulyadi**. It is made available for public use, study, modification, and redistribution under its applicable open-source license.
 
