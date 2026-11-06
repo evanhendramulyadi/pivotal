@@ -4,14 +4,15 @@
 
 <h1 align="left">Pivotal</h1>
 
-Pivotal is a portable, self-contained AI coding instruction system distributed through a single `AGENTS.md` file. It is designed to help compatible AI coding agents understand user intent, work efficiently, avoid unnecessary complexity, reuse existing solutions, and verify results before reporting completion.
+Pivotal is a portable, self-contained AI coding instruction system distributed through a single `AGENTS.md` file. It is designed to help compatible AI coding agents understand user intent, work efficiently, avoid unnecessary complexity and low-quality AI-generated implementations, reuse existing solutions, and verify results before reporting completion.
 
-By providing structured operational guardrails, Pivotal is designed to improve an agent's understanding of project context, reduce redundant exploration and overengineering, encourage the reuse of established code, and promote proportional verification before declaring tasks complete—all without requiring software installations, package dependencies, or runtime configuration.
+By providing structured operational guardrails, Pivotal is designed to improve an agent's understanding of project context, reduce redundant exploration and overengineering, reduce AI slop, encourage the reuse of established code, and promote proportional verification before declaring tasks complete—all without requiring software installations, package dependencies, or runtime configuration.
 
 ## ✨ Key Features
 
 - **Intent & Context First**: Guides agents to determine actual user objectives, evaluate available context, and distinguish explicit requirements from assumptions before acting.
 - **Solution-Priority Ladder**: Directs agents to evaluate solutions in priority order (no change, existing code, standard library, native platform features, installed dependencies, and minimal custom code) before introducing new code.
+- **Anti-AI Slop Standards**: Guides agents toward purposeful, maintainable implementations by reducing overengineering, eliminating unneeded abstractions and artificial complexity, avoiding redundant or duplicate code, and rejecting placeholder solutions.
 - **Smallest Complete Solution**: Encourages the simplest maintainable approach that fully satisfies requirements without introducing unrequested abstractions or fragile implementations.
 - **Targeted Exploration & Efficiency**: Designed to curb unnecessary token usage, aimless repository scans, redundant tool calls, and repeated actions without root-cause assessment.
 - **Blast Radius Control**: Preserves working architecture, untouched files, and formatting conventions while avoiding unsolicited refactoring or extraneous dependencies.
