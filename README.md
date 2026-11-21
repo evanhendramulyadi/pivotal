@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/pivotal-logo.png" alt="Pivotal Logo" width="100">
+  <img src="assets/logo-pivotal.png" alt="Pivotal Logo" width="100">
 </p>
 
 <h1 align="left">Pivotal</h1>
@@ -87,7 +87,7 @@ Pivotal/
 ├── README.md
 ├── LICENSE
 └── assets/
-    └── pivotal-logo.png
+    └── logo-pivotal.png
 ```
 
 - **`AGENTS.md`**: The actual product. This is the only file you need to copy into a compatible coding project.
